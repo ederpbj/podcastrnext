@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Definir as cores
+:root{
+  --white: #FFF;
+
+  --gray-50: #F7F8FA;
+  --gray-100: #E6E8Eb;
+  --gray-50: #AFB2B1;
+  --gray-50: #808080;
+  --gray-50: #494D4B;
+  
+  --green-500: #04D361;
+
+  --purple-300: #9F75FF;
+  --purple-400: #9164FA;
+  --purple-500: #8257E5;
+  --purple-800: #6F48C9;
+
+}
+
+//Para que o usuário possa diminuir a fonte
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; // 15px
+    //Toda página começa com 16px de tamanho
+    //16 x 0,9375 = 15
+    //Tela menor reduz toda interface do app
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; // 14px
+    //16 x 0,875 = 14
+  }
+}
+
+/*
+html{
+  font-size: 10px; // == 2rem significa 20px, 1.5 significa 15px
+  font-size: 16px; // é o padrão == 2rem significa 32px, 1.5 significa 24px
+}
+*/
+
+body {
+  background: var(--gray-50);
+}
+
+body, input, textarea, button{
+  font: 500 1rem sans-serif;
+  color: var(--gray-500);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
