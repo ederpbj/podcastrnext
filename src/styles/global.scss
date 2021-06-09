@@ -10,9 +10,9 @@
 
   --gray-50: #F7F8FA;
   --gray-100: #E6E8Eb;
-  --gray-50: #AFB2B1;
-  --gray-50: #808080;
-  --gray-50: #494D4B;
+  --gray-200: #AFB2B1;
+  --gray-300: #808080;
+  --gray-400: #494D4B;
   
   --green-500: #04D361;
 
@@ -52,8 +52,14 @@ body {
 }
 
 body, input, textarea, button{
-  font: 500 1rem sans-serif;
+  font: 500 1rem Inter, sans-serif;
   color: var(--gray-500);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: Lexend, sans-serif;
+  color: var(--gray-800);
 }
 
 h1 {
